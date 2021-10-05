@@ -76,7 +76,7 @@ header img{
 
 .header-title-container .header-botton{
     position: absolute;
-    left: calc(50% - 148px);
+    left: calc(50% - 135px);
     top: 270px;
     display: block;
     margin-top: 35px;
@@ -107,14 +107,15 @@ main {
     min-width: 320px;
     height: auto;
     background-color: var(--off-white);
-  }
+}
+
   .main-exchange-container {
     width: 100%;
     height: auto;
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
-  }
+}
 
 .main-exchange-container-title{
     width: 90%;
@@ -141,6 +142,7 @@ main {
     line-height: 2,6rem;
     color: var(--black);
 }
+
 .main-exchange-container p{
     margin-bottom: 30px;
     font-size: 1.4rem;
@@ -164,6 +166,14 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin--orange);
+}
+
+.main-currency-table .commission-table--title{
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
 }
 
 .main-currency-table .currency-table--container{
@@ -239,7 +249,7 @@ main {
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--soft-orange);
+    background-color: rgb(233, 216, 179);
     border-radius: 8px;
 }
 
@@ -247,4 +257,38 @@ main {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--warm-black);
+}
+
+.commission-table-date{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: rgb(182, 198, 229);
+    border-radius: 8px;
+}
+
+.commission-table-date p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+    
+    .main-table-container{
+        display: flex;
+    }
 }
